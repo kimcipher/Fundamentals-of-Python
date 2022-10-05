@@ -46,3 +46,5 @@ w = int(input("Enter your mass(kg):"))
 h = float(input("Enter your height(metres):"))
 bmi = w / (h **2)
 print("Your BMI is:", bmi)
+
+print("BASIC CALCULATIONS")
