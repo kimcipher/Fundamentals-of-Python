@@ -26,3 +26,20 @@ if "Patricia" not in students:
     print(students)
 if "Spanishia" in students:
     print("Spanishia scored an A")
+
+
+# create a tuples of 5 more schools and add 3 more schools that passed
+print("The following schools passed in their examinations")
+schools = ("Moi High","Kenya High","Sunshine Secondary","Lenana","Dagoretti High")
+print(schools)
+
+print("Three more schools were added to the list")
+x = list(schools)
+print(x)
+
+x.append("Machakos High")
+x.append("Naivasha Girls")
+x.append("Pangani Girls")
+schools = tuple(x)
+print(schools)
+print(type(schools))
