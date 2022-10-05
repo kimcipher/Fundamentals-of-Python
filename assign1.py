@@ -38,4 +38,11 @@ H = int(input("Enter the height:"))
 volume = PI * r**2 * H
 print("The volume of the cylinder is:", volume)
 
-
+# code to calculate a persons bmi body mass index
+# weight(kg), height(m)
+# bmi = weight / (height **2)
+print("Calculate your BMI")
+w = int(input("Enter your mass(kg):"))
+h = float(input("Enter your height(metres):"))
+bmi = w / (h **2)
+print("Your BMI is:", bmi)
